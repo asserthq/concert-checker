@@ -118,7 +118,7 @@ fn start_checking_loop(
             }
         };
 
-        sleep(Duration::from_secs(30));
+        sleep(Duration::from_secs(2 * 60));
     }
 }
 
